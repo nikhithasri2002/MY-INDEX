@@ -1,0 +1,81 @@
+/* styles.css */
+body {
+    font-family: sans-serif;
+    background: linear-gradient(to bottom right, #FFD3C0, #B8B8FF, #8CF5C5);
+    
+}
+
+header {
+    background-color: #eee;
+    padding: 10px;
+}
+
+header a {
+    text-decoration: none;
+    color: blue;
+}
+
+#about {
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+    width: 150px;
+    border-radius: 50%;
+}
+
+.name {
+    margin-top: 10px;
+}
+
+#links {
+    padding: 20px;
+}
+
+#links table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 50%;
+    border: 1px solid #ddd;
+    background-color: transparent; /* Set background color to transparent */
+}
+
+#links th, #links td {
+    text-align: left;
+    padding: 16px;
+}
+
+#links tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#links tr:nth-child(odd) {
+    background-color: #ababab;
+}
+
+ul {
+    background-color: #eee;
+    list-style: none;
+}
+
+.education {
+    margin-top: 20px;
+}
+
+.dream-job {
+    margin-top: 20px;
+}
+
+.quote {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.external-links {
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+}
